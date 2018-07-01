@@ -1,0 +1,20 @@
+#memoriaviva {
+    height: 21em;
+    .content-post {
+        @include cards;
+        height: 15em;
+    }
+    .picture-box {
+        height: 21em;
+    }
+    .picture-layer {
+        background: linear-gradient(-90deg, white, transparent);
+        height: 21em;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .text-box {
+        padding: 2em;
+    }
+}

@@ -1,0 +1,33 @@
+#infografia {
+	width: 100%;
+	background: $white;
+	.col {
+		padding: 0!important;
+	}
+	.container-box {
+		height: 21.5em;
+		left:0;
+		position: relative;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		@include cards;
+		opacity:1; 
+	}
+	.show-element1 {
+		margin-right: .5em;
+		h1 {
+			a {
+				background: $grafito_mupin_dark;
+				padding: .2em;
+			}
+		}  
+	}
+	.show-element2 {
+		h3 {
+			padding: .2em;
+			background-color: rgba(0, 0, 0, .9);
+			color: white;
+		}
+	}
+}

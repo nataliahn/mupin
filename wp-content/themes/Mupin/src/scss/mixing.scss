@@ -1,0 +1,45 @@
+@mixin cards {
+    margin-bottom: .5em;
+    padding: 1em;
+    .card-category {
+        ul {
+            li {
+                background-color: $purple;
+                text-align: center;
+                display: inline-block;
+                padding: 0.5em;
+                line-height: 10px;
+                position: relative;
+                a {
+                    color: white;
+                    font-size: 13px;
+                    padding: 0;
+                    line-height: 0px;
+                    position: relative;
+                    top: -1px;
+                }
+            }
+        }  
+    }
+    .card-title {
+        font-size: 39px;
+        color: white;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .card-title_md {
+        h1 {
+            font-size: 23.4px;
+            color: white;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+    }
+    .card-readmore {
+        font-size: 15px;
+        letter-spacing: 0.4px;
+        span, img {
+            display: inline-block;
+        }
+    }
+}

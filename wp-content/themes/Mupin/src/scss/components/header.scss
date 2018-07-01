@@ -1,0 +1,88 @@
+header {
+    width: 100%;
+    background-color:  $grafito_mupin_dark;
+    position: fixed;
+    z-index: 22222222;
+    top: 0;
+    font-family: $primary-typo;
+    .subnav-collapse {
+        padding: 1.5em 0em 0 0em;
+        margin-bottom: 0;
+        .img-brand_logo {
+            display: inline-block;
+            width: 337px;
+            position: relative;
+            height: 58px;
+            top: -4px;
+            img {
+                position: relative;
+                top: -7px;
+                width: 100%;
+            }
+        }
+        .menu-nav_search {
+            display: inline-block;
+            float: right;
+            input {
+                float: right;
+            }
+        }
+    }
+    .menu-nav_collapse {
+        background-color: $grafito_mupin_dark !important;
+        position: relative;
+        top: -2px;
+        ul {
+            padding: 0;
+            margin-bottom: 0 !important;
+            .current-menu-item {
+                a {
+                    font-weight: 500 !important;
+                }
+            }
+            li {
+                display: inline-block;
+                height: 2em;
+                width: 7em;
+                text-align: center;
+                a {
+                    color: white;
+                    font-size: 15px;
+                    text-transform: uppercase;
+                    font-weight: 100;
+                    letter-spacing: 1.15px;
+                    display: block;
+                }
+                &:hover {
+                    ul{
+                        display: block !important;
+                        position: relative;
+                        float: left;
+                        left: 0;
+                        padding: 10px 0em 0em 0em;
+                        text-align: left;
+                        background: $grafito_mupin_dark;
+                        width: 147%;
+                    }
+                }
+                ul {
+                    display: none;
+                    li {
+                        display: block;
+                        text-align: left !important;
+                        height: auto;
+                        padding: .5em;
+                        width: 100%;
+                        &:hover {
+                            background: $grafito_mupin;
+                        }
+                        a {
+                            color: #fff;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.searchform-area {
+    input, img {
+        display: inline-block;
+        float: right;
+    }
+    .search-form_input {
+        background-color: transparent;
+        border: none;
+        display: inline-block;
+        float: right;
+        cursor: pointer;
+        img {
+            width: 1.8em;
+            margin-left: 1em;
+        }
+    }
+    input {
+        background-color: transparent;
+        border: none;
+        color: white;
+        text-align: right;
+    }
+}
